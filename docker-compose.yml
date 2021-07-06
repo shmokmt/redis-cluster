@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  redis:
+    build: .
+    networks:
+      - redis_network
+
+networks:
+  redis_network:
